@@ -1,0 +1,10 @@
+P = 200000000
+A = 400000000
+r = 0.1
+t = 0
+
+while P < A:
+    P += P * r
+    t += 1
+
+print("Waktu yang dibutuhkan:", t, "tahun")
