@@ -1,0 +1,9 @@
+harga_awal = 650000
+harga_sekarang = 685000
+jumlah_gram = 25
+
+keuntungan = (harga_sekarang - harga_awal) * jumlah_gram
+persentase_keuntungan = (keuntungan / (harga_awal * jumlah_gram)) * 100
+
+print("Keuntungan: Rp.", keuntungan)
+print("Persentase Keuntungan:", persentase_keuntungan, "%")
